@@ -1,0 +1,58 @@
+:root {
+    --color-darkblue: rgba(175, 11, 11, 0.8);
+    --color-white: #f3f3f3;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    color: var(--color-white);
+    font-size: 1.3rem;
+    background: var(--color-darkblue);
+    background-image: rgba(255, 173, 173, 0.8), url(https://miro.medium.com/v2/resize:fit:1400/1*pGvAq3oXZbS24TXW63gl6g.jpeg);
+    background-position: center;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+#survey-form {
+    background-color: var(--color-white);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    color: black;
+}
+
+.form {
+    margin: 0.2rem
+}
+
+#comments {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+#submit {
+    width: 100%;
+    padding: 0.5rem;
+    background: #80C15A;
+    color: var(--color-white);
+    border: none;
+}
