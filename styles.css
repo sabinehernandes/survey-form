@@ -1,5 +1,5 @@
 :root {
-    --color-darkblue: rgba(175, 11, 11, 0.8);
+    --color-pink: rgba(182, 75, 75, 0.8);
     --color-white: #f3f3f3;
 }
 
@@ -7,15 +7,16 @@ body {
     font-family: Calibri, sans-serif;
     color: var(--color-white);
     font-size: 1.3rem;
-    background: var(--color-darkblue);
-    background-image: rgba(255, 173, 173, 0.8), url(https://miro.medium.com/v2/resize:fit:1400/1*pGvAq3oXZbS24TXW63gl6g.jpeg);
+    background: var(--color-pink);
     background-position: center;
+    margin: 5%;
 }
 
 input,
 select,
 textarea {
     font-family: inherit;
+    font-size: 1.2rem;
 }
 
 #title,
@@ -35,11 +36,26 @@ textarea {
     background-color: var(--color-white);
     border-radius: 0.2rem;
     padding: 0.5rem;
-    color: black;
+    color: rgb(31, 31, 31);
 }
 
 .form {
     margin: 0.2rem
+}
+
+.form-improve label,
+.form-recommend label {
+    display: flex;
+    flex-direction: row;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.p-title {
+    margin-bottom: 1.2rem
 }
 
 #comments {
